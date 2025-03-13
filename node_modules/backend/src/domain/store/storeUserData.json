@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "_id": "1",
+      "name": "Oscar",
+      "email": "floresquispeoscar109@gmail.com",
+      "password": "Fuerzaabasto1@",
+      "lastName": "Flores",
+      "nacionality": "Argentina",
+      "createdAt": "2025-03-10T14:38:26.184Z",
+      "updatedAt": "2025-03-10T14:38:26.184Z"
+    },
+    {
+      "_id": "2",
+      "name": "Matias",
+      "email": "floresquispematias109@gmail.com",
+      "password": "Fuerzaabasto",
+      "lastName": "Flores",
+      "nacionality": "Argentina",
+      "createdAt": "2025-03-10T15:25:16.542Z",
+      "updatedAt": "2025-03-10T15:25:16.542Z"
+    },
+    {
+      "_id": "3",
+      "name": "Milagros",
+      "email": "rocioloza@hotmail.com",
+      "password": "Fuerzaabasto1@",
+      "lastName": "Flores",
+      "nacionality": "Argentina",
+      "createdAt": "2025-03-11T18:17:33.605Z",
+      "updatedAt": "2025-03-11T18:17:33.605Z"
+    }
+  ]
+}

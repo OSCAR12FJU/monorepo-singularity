@@ -1,0 +1,23 @@
+{
+  "name": "project-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm --workspace backend run dev\" \"npm --workspace frontend run dev\"",
+    "start": "concurrently \"npm --workspace backend run start\" \"npm --workspace frontend run preview\"",
+    "build": "concurrently \"npm --workspace backend run build\" \"npm --workspace frontend run build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

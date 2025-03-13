@@ -1,0 +1,29 @@
+services:
+  backend:
+    # build:
+    image:
+      backend_service:2.0
+      # context: .
+      # dockerfile: ./backend/Dockerfile
+    container_name: backend_container
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env
+    networks:
+      - app-network
+
+  frontend:
+    # build:
+    #   context: .
+    #   dockerfile: ./frontend/Dockerfile
+    image: frontend_service:2.0
+    container_name: frontend_container
+    ports:
+      - "5173:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
